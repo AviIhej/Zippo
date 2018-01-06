@@ -1,0 +1,56 @@
+/* ==================
+Universal
+==================== */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,700,900');
+*{
+    font-family: 'Lato', sans-serif;
+    
+}
+
+
+
+/* ==================
+Navigation
+==================== */
+
+
+
+/* ==================
+Typography
+==================== */
+#container-box h5{
+    color: rgb(145, 148, 151);
+}
+#container-box span{
+    color: rgb(42,131,202);
+    font-weight: 400;
+}
+#container-box h2{
+    font-weight: 400;
+}
+
+#container-1 p{
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(100,114,127);
+}
+#container-1 h2{
+    font-weight: 600;
+}
+#container-1 h5{
+    font-weight: 400;
+}
+
+
+#container-2{
+    text-align: center;
+}
+
+#container-2{
+    color: rgb(5,78,133);
+}
+
+
+#container-2 h5{
+    color: rgb(5,78,133);
+}
