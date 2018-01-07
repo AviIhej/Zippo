@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,700,900');
+
 /* ==================
 Universal
 ==================== */
-@import url('https://fonts.googleapis.com/css?family=Lato:100,400,700,900');
 *{
     font-family: 'Lato', sans-serif;
     
@@ -53,4 +54,35 @@ Typography
 
 #container-2 h5{
     color: rgb(5,78,133);
+}
+
+/* ==================
+Media Queries
+==================== */
+
+@media (min-width: 768px) {
+    .collapse.dont-collapse-sm {
+      display: block;
+      height: auto !important;
+      visibility: visible;
+    }
+  }
+
+
+  @media screen and (min-width:768px) { 
+      #container-1{ display: block!important;visibility:visible!important; } 
+    
+    }
+
+    @media screen and (min-width:768px) { #SearchParameters{ display: block!important;visibility:visible!important; } }
+
+
+@media (max-width: 768px) {
+
+    #a1{
+        width: 90%;
+    }
+    #a2{
+        width: 90%;
+    }
 }
